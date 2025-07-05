@@ -25,7 +25,7 @@ const AboutPage = () => {
             <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Story</h2>
             <p className="text-[1rem] text-gray-700 leading-relaxed">
               Founded with a vision to redefine interior spaces, Homez Style and Trading Services combines passion,
-              creativity, and professionalism to deliver exceptional results. Our journey started with a simple idea—
+              creativity, and professionalism to deliver exceptional results.Our journey started with a simple idea—
               to bring elegance, function, and personality into every corner of your home or workspace.
               Over the years, we’ve grown into a trusted name, offering a range of styling, renovation, and
               premium product trading services.
