@@ -34,8 +34,8 @@ const HomePage = () => {
             className="rounded-lg shadow-lg"
           />
           <div>
-            <h2 className="text-3xl font-bold mb-4 text-blue-900">About HomezStyle</h2>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <h2 className="text-[1.5rem] text-center md:text-left lg:text-3xl font-bold mb-4 text-blue-900">About HomezStyle</h2>
+            <p className="text-[1rem] md:text-lg text-gray-700 leading-relaxed">
               Homez Style and Trading Services is a dynamic company committed to transforming everyday
               spaces into elegant and functional environments. We specialize in home styling, interior décor,
               and trading of premium home furnishings and lifestyle products. With a passion for detail and
@@ -49,8 +49,8 @@ const HomePage = () => {
       <section className="py-16 bg-white px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Mission</h2>
-            <ul className="text-lg text-gray-700 space-y-4 list-disc list-inside">
+            <h2 className="text-[1.5rem] text-center md:text-left lg:text-3xl font-bold text-blue-900 mb-4">Our Mission</h2>
+            <ul className="text-[1rem] md:text-lg text-gray-700 space-y-4 list-disc list-inside">
               <li>
                 To deliver exceptional home styling and trading services tailored to individual preferences.
               </li>
@@ -83,8 +83,8 @@ const HomePage = () => {
             className="rounded-lg shadow-lg"
           />
           <div>
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">Why Choose HomezStyle?</h2>
-            <ul className="text-lg text-gray-700 space-y-4 list-disc list-inside">
+            <h2 className="text-[1.5rem] text-center md:text-left lg:text-3xl font-bold text-blue-900 mb-4">Why Choose HomezStyle?</h2>
+            <ul className="text-[1rem] md:text-lg text-gray-700 space-y-4 list-disc list-inside">
               <li>🎨 <strong>Creative Professionals</strong>: Experienced designers with a keen eye for detail.</li>
               <li>🛋️ <strong>Premium Product Sourcing</strong>: Access to international and local suppliers.</li>
               <li>🔧 <strong>Turnkey Solutions</strong>: From concept to completion.</li>
@@ -97,7 +97,7 @@ const HomePage = () => {
       {/* Services Section */}
       <section className="py-16 bg-white px-6" id="services">
         <div className="max-w-6xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-900">Our Services</h2>
+          <h2 className="text-[1.5rem] text-center md:text-left lg:text-3xl font-bold text-blue-900">Our Services</h2>
           <p className="text-gray-600 mt-4">Innovative design, space planning, and customized solutions</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -115,7 +115,7 @@ const HomePage = () => {
                   className="rounded-md mb-4 object-cover w-full h-full"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-blue-900">{service.title}</h3>
+              <h3 className="text:lg lg:text-xl font-semibold text-center text-blue-900 pt-2">{service.title}</h3>
             </div>
           ))}
         </div>
@@ -132,10 +132,7 @@ const HomePage = () => {
             Get in Touch
           </button>
         </Link>
-      </section>
-
-      {/* Footer */}
-      
+      </section>      
     </main>
   );
 };

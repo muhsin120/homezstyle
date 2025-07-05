@@ -52,8 +52,8 @@ const AboutPage = () => {
             className="rounded-lg shadow-lg"
           />
           <div>
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Values</h2>
-            <ul className="text-lg text-gray-700 space-y-4 list-disc list-inside">
+            <h2 className="text-[1.6rem] text-center md:text-left lg:text-3xl font-bold text-blue-900 mb-4">Our Values</h2>
+            <ul className="text-[1rem] md:text-lg text-gray-700 space-y-4 list-disc list-inside">
               <li><strong>Creativity:</strong> Fresh ideas tailored to each client.</li>
               <li><strong>Integrity:</strong> Honest, transparent communication in every project.</li>
               <li><strong>Quality:</strong> Commitment to excellence from materials to execution.</li>
